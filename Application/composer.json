@@ -1,0 +1,17 @@
+{
+	"name": "piciuu/store-watcher",
+	"description": "Dreamfork - PHP framework v0.3",
+	"autoload": {
+		"psr-4": {
+			"App\\": "app/",
+			"Database\\": "database/",
+			"Services\\": "services/"
+		}
+	},
+	"require": {
+		"symfony/routing": "^5.4",
+		"symfony/http-foundation": "^5.4",
+		"vlucas/phpdotenv": "^5.4",
+		"minishlink/web-push": "^6.0"
+	}
+}
